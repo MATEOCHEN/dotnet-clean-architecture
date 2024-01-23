@@ -1,3 +1,5 @@
+using clean_architecture_template.Infrastructure;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -17,5 +19,6 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.MapGet("/", () => "Hello, Template API!");
+app.MapEndpoints();
 
 app.Run();
