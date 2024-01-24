@@ -8,4 +8,9 @@ public class TodoItem
     public DateTime? CompleteOn  { get; set; }
     public DateTime CreateOn  { get; set; }
     public DateTime? UpdateOn  { get; set; }
+
+    public bool IsComplete()
+    {
+        return CompleteOn is not null && Done;
+    }
 }
