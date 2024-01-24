@@ -11,6 +11,6 @@ public class CreateTodoItemCommandHandler : IRequestHandler<CreateTodoItemComman
 {
     public async Task<string> Handle(CreateTodoItemCommand request, CancellationToken cancellationToken)
     {
-        return $"create todo item with title {request.Name}";
+        return $"create todo item with name {request.Name}";
     }
 }

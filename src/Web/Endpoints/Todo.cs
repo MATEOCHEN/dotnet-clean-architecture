@@ -12,9 +12,9 @@ public class Todo : EndpointGroupBase
     {
         app.MapGroup(this)
             .MapGet(GetTodoItem, "item/{id:int}")
-            .MapPost((CreateTodoItemRequest _) => CreateTodoItem, "item")
-            .MapPut(() => UpdateTodoItem, "item/{id:int}")
-            .MapDelete(() => DeleteTodoItem, "item/{id:int}");
+            .MapPost(CreateTodoItem, "item")
+            .MapPut(UpdateTodoItem, "item/{id:int}")
+            .MapDelete(DeleteTodoItem, "item/{id:int}");
     }
 
     private async Task<string> GetTodoItem(ISender sender, int id)
