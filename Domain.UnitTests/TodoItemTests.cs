@@ -1,16 +1,8 @@
-using Domain.Entities;
-using FluentAssertions;
-
 namespace Domain.UnitTests;
 
 [TestFixture]
 public class TodoItemTests 
 {
-    [SetUp]
-    public void SetUp()
-    {
-    }
-
     [Test]
     public void todo_item_is_complete()
     {
