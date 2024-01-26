@@ -8,27 +8,27 @@
 
 ### Domain
 
-* Domain layer is used to store the **core business domain**.
+Domain layer is used to store the **core business domain**.
 
->|-- Domain
->|   |-- Entities
->|   |-- Enums
->|   |-- Constants
->|-- GloblaUsings.cs
+    |-- Domain
+    |   |-- Entities
+    |   |-- Enums
+    |   |-- Constants
+    |-- GloblaUsings.cs
 
 ### Application
 
-* Application layer is used to handle the **process of business rules**.
+Application layer is used to handle the **process of business rules**.
 
->|-- Application
->|   |-- Common
->|   |   |-- Interfaces
->|   |   |-- Exceptions
->|   |-- Use Case
->|   |   |-- TodoItems
->|   |   |-- TodoLists
->|-- DependencyInjection.cs
->|-- GloblaUsings.cs
+    |-- Application
+    |   |-- Common
+    |   |   |-- Interfaces
+    |   |   |-- Exceptions
+    |   |-- Use Case
+    |   |   |-- TodoItems
+    |   |   |-- TodoLists
+    |-- DependencyInjection.cs
+    |-- GloblaUsings.cs
 
 ### Infrastructure
 
