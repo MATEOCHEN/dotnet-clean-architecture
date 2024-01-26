@@ -47,13 +47,15 @@
 
 * Web layer is used to set up **project config and api endpoint**.
 
->├── Web \
->│ ├── Constants \
->│ └── Endpoints \
->│ └── Filters \
->│ └── Infrastructure \
->│ └── Middleware \
->├── Program.cs
+```bash
+├── Web \
+│ ├── Constants \
+│ └── Endpoints \
+│ └── Filters \
+│ └── Infrastructure \
+│ └── Middleware \
+├── Program.cs
+``````
 
 ## Tech Stack
 
