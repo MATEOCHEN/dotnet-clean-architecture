@@ -32,20 +32,20 @@
 
 ### Infrastructure
 
-* Infrastructure layer is used to interact with **external resource**.
+Infrastructure layer is used to interact with **external resource**.
 
->|-- Infrastructure
->|   |-- Common
->|   |-- Data
->|   |   |-- Configurations
->|   |-- ApplicationDbContext.cs
->|   |-- Networks
->|-- DependencyInjection.cs
->|-- GloblaUsings.cs
+    |-- Infrastructure
+    |   |-- Common
+    |   |-- Data
+    |   |   |-- Configurations
+    |   |-- ApplicationDbContext.cs
+    |   |-- Networks
+    |-- DependencyInjection.cs
+    |-- GloblaUsings.cs
 
 ### Web
 
-> Web layer is used to set up **project config and api endpoint**.
+Web layer is used to set up **project config and api endpoint**.
 
     ├── Web
     │ ├── Constants
